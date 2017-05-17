@@ -1,10 +1,10 @@
-import { POCPage } from './app.po';
+import { PocPage } from './app.po';
 
 describe('poc App', () => {
-  let page: POCPage;
+  let page: PocPage;
 
   beforeEach(() => {
-    page = new POCPage();
+    page = new PocPage();
   });
 
   it('should display message saying app works', () => {

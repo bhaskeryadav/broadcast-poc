@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class POCPage {
+export class PocPage {
   navigateTo() {
     return browser.get('/');
   }
