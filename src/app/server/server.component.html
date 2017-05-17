@@ -1,0 +1,6 @@
+<h2>Server</h2>
+<input type="text" [(ngModel)]="textMsg" pInputText />
+
+<button pButton type="button" (click)="broadcast()" icon="fa-check" >Broadcast</button>
+
+<pre>Broadcasting message : {{lastMsg}}</pre>
