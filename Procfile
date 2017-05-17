@@ -1,1 +1,1 @@
-web: node server.js
+web: ng build & tsc server.ts  & node server.js
